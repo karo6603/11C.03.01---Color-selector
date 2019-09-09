@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pick'a'color</h1>
+
+    <div class="selector">
+      <div class="inner">
+        <div class="box"></div>
+        <label for="color-picker">Choose color:</label>
+        <input
+          type="color"
+          name="color-picker"
+          id="color-picker"
+          value="#FFC0CB"
+        />
+
+        <p class="hex-output">HEX: #ffc0cb</p>
+        <p class="rgb-output">RGB: 148, 227, 255</p>
+        <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

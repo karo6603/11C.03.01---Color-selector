@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.selector .inner {
+  margin: 50px 100px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #ffc0cb;
+  margin: 0px 0px 50px;
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  border: none;
+  background: none;
+  box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.48);
+  margin: 0 15px;
+}
+
+p {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
