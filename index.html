@@ -6,26 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Color Picker</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   </head>
   <body>
-    <h1>Pick'a'color</h1>
+    <body>
+      <h1>Color picker</h1>
+      <div class="selector">
+        <div class="inner">
 
-    <div class="selector">
-      <div class="inner">
-        <div class="box"></div>
-        <label for="color-picker">Choose color:</label>
-        <input
-          type="color"
-          name="color-picker"
-          id="color-picker"
-          value="#FFC0CB"
-        />
+            <!-- <div class="choosescheme">
+                <button class="schemebtn">
+                  Choose scheme <i class="fa fa-angle-down"></i>
+                </button>
+                <div class="schemedropdown">
+                  <button class="analogous">Analogous</button>
+                  <button class="scheme">Monochromatic</button>
+                  <button class="scheme">Triad</button>
+                  <button class="scheme">Complementary</button>
+                  <button class="scheme">Compound</button>
+                  <button class="scheme">Shades</button>
+                </div>
+              </div> -->
 
-        <p class="hex-output">HEX: #ffc0cb</p>
-        <p class="rgb-output">RGB: 148, 227, 255</p>
-        <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              <label id="color-changer">
+                  <select name="color_picker" id="color_picker">
+                    <option value="analogous">Analogous</option>
+                    <option value="monochromatic">Monochromatic</option>
+                    <option value="triad">Triad</option>
+                    <option value="complementary">Complementary</option>
+                    <option value="compound">Compound</option>
+                    <option value="shades">Shades</option>
+                  </select>
+                </label>
+
+          <label for="color-picker">Choose color:</label>
+          <input
+            type="color"
+            name="color-picker"
+            id="color-picker"
+            value="#94E3FF"
+          />
+          <div class="wrapper">
+            <div class="container1">
+              <div class="box1"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #94E3FF</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container2">
+              <div class="box2"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #94E3FF</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container3">
+              <div class="box3"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #94E3FF</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container4">
+              <div class="box4"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #94E3FF</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container5">
+              <div class="box5"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #94E3FF</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
     <script src="script.js"></script>
   </body>
